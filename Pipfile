@@ -1,0 +1,33 @@
+[[source]]
+url = "https://pypi.org/simple"
+verify_ssl = true
+name = "pypi"
+
+[packages]
+numpy = "*"
+pandas = "*"
+boto3 = "*"
+fsspec = "*"
+lightgbm = "*"
+matplotlib = "*"
+overrides = "*"
+optuna = "*"
+s3fs = "*"
+pyyaml = "*"
+sklearn = "*"
+scipy = "*"
+tqdm = "*"
+urllib3 = "*"
+cython = "*"
+catboost = "*"
+torch = "*"
+ta-lib = "*"
+fastapi = "*"
+uvicorn = {extras = ["standard"], version = "*"}
+fastapi-cloudauth = "*"
+
+[dev-packages]
+pytest = "*"
+
+[requires]
+python_version = "3.8"
