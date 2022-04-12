@@ -1,3 +1,6 @@
 [submodule "fin_app_model"]
 	path = fin_app_model
 	url = git@github.com:pondelion/FinAppModel.git
+[submodule "fin_app_dataset"]
+	path = fin_app_dataset
+	url = git@github.com:pondelion/FADataset.git

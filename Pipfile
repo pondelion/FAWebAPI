@@ -21,7 +21,7 @@ urllib3 = "*"
 cython = "*"
 catboost = "*"
 torch = "*"
-ta-lib = "*"
+TA-Lib = "*"
 fastapi = "*"
 uvicorn = {extras = ["standard"], version = "*"}
 fastapi-cloudauth = "*"

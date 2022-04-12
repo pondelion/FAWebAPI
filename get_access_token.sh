@@ -1,0 +1,1 @@
+aws cognito-idp admin-initiate-auth --user-pool-id $AWS_COGNITO_USERPOOL_ID --client-id $AWS_COGNITO_CLIENT_ID --auth-flow ADMIN_NO_SRP_AUTH --auth-parameters USERNAME=$AWS_COGNITO_USERNAME,PASSWORD=$AWS_COGNITO_PASSWORD | jq '.AuthenticationResult | .IdToken'
