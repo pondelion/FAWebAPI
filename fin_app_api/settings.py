@@ -31,5 +31,5 @@ settings = Settings(
     LOCAL_DB_PASSWORD=os.environ['LOCAL_MYSQL_PASSWORD'],
     LOCAL_DB_PORT=int(os.environ.get('LOCAL_DB_PORT', '3306')),
     LOCAL_DB_NAME=os.environ['LOCAL_MYSQL_DATABASE'],
-    DISABLE_AUTH=True
+    DISABLE_AUTH=False
 )

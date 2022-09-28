@@ -25,6 +25,7 @@ TA-Lib = "*"
 fastapi = "*"
 uvicorn = {extras = ["standard"], version = "*"}
 fastapi-cloudauth = "*"
+jpholiday = "*"
 
 [dev-packages]
 pytest = "*"
